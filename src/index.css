@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  min-height:100vh;
+  background-color: #000;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  border:none;
+  color:white;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  padding:0 20px
+}
+
+.header {
+  color:white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main-container {
+  background-color:#333;
+  color:white;
+  width:700px;
+  padding:30px 50px
+}
+
+/* Adding Form */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input {
+  width: 280px;
+  padding:10px 0 10px 10px;
+  border: none;
+  outline: none;
+}
+
+
+.form-btn,
+.to-do-btn {
+  background-color: #4CAF50
+}
+
+.btns-container {
+  margin-top: 50px;
+}
+
+.complated-btn {
+  background-color: #7474748f;
+}
+
+.title-clr {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.to-do-thing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7474748f;
+  margin-top:20px;
+  padding:20px
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 20px;
+}
